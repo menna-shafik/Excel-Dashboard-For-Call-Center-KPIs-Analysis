@@ -4,6 +4,8 @@
 This project is an interactive Excel dashboard designed to analyze Call Center performance and support management decision-making.
 
 The main focus was not just building visuals, but understanding the business problem, cleaning real-world data, and transforming it into clear and actionable insights.
+
+
 <img width="1860" height="831" alt="Screenshot 2026-01-14 141049" src="https://github.com/user-attachments/assets/d40a8e30-e67f-42d7-8855-ade05f5b160d" />
 
 
