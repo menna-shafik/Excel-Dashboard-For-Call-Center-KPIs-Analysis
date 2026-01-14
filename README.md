@@ -36,3 +36,37 @@ Several data quality issues were identified and resolved:
 ### Example Fix:
 ```excel
 =[@[Agent_First_Name]] & " " & [@[Agent_Last_Name]]
+Null values in the final rows were grouped under "Other" to maintain consistency.
+
+---
+
+## 🛠 Tools & Techniques Used
+- Microsoft Excel
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- KPI Cards
+- Data Cleaning & Transformation
+- Dashboard Layout & UI Design
+
+---
+
+## 📊 Dashboard Features
+- Interactive KPI cards
+- Dynamic charts connected to Pivot Tables
+- Slicers for filtering by agent and date
+- Clean and easy-to-read dashboard layout
+
+---
+
+## 📷 Screenshots
+<img width="1860" height="831" alt="Screenshot 2026-01-14 141049" src="https://github.com/user-attachments/assets/d40a8e30-e67f-42d7-8855-ade05f5b160d" />
+
+All the rest of the screenshots are available in the screenshots folder.
+
+---
+
+## 🚀 Key Takeaways
+- Effective dashboards start with understanding the business requirements
+- Clean and structured data is essential for accurate analysis
+- Excel can be a powerful analytical tool, not just a spreadsheet
