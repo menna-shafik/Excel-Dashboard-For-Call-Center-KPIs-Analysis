@@ -1,0 +1,45 @@
+Sub HideShow()
+    Dim shpMap As Shape
+    Dim shpChart As Shape
+    Dim mapbtn As Shape
+    Dim chartbtn As Shape
+
+    Set shpMap = ActiveSheet.Shapes("Map")
+    Set shpChart = ActiveSheet.Shapes("StateChart")
+    Set mapbtn = ActiveSheet.Shapes("mapbtn")
+    Set chartbtn = ActiveSheet.Shapes("chartbtn")
+
+    If shpMap.Visible = msoTrue Then
+        shpMap.Visible = msoFalse
+        shpChart.Visible = msoTrue
+        
+        mapbtn.Visible = msoFalse
+        chartbtn.Visible = msoTrue
+    Else
+        shpMap.Visible = msoTrue
+        shpChart.Visible = msoFalse
+        
+        mapbtn.Visible = msoTrue
+        chartbtn.Visible = msoFalse
+    End If
+End Sub
+
+
+
+
+
+
+' Toggle visibility of slicer and buttons
+Sub ToggleSlicerVisibility()
+
+    Dim slicerVisible As Boolean
+
+    ' Check current visibility state
+    slicerVisible = ActiveSheet.Shapes("Months").Visible
+
+    ' Toggle visibility
+    ActiveSheet.Shapes("Months").Visible = Not slicerVisible
+    ActiveSheet.Shapes("Closebtn").Visible = Not slicerVisible
+    ActiveSheet.Shapes("Openbtn").Visible = slicerVisible
+
+End Sub
